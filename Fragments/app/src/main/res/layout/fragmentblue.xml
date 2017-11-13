@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUE"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+
+     />
+
+    <Button
+        android:id="@+id/btnone"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textColor="@android:color/white" />
+
+</FrameLayout>

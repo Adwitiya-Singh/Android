@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/crdcity"
+        android:backgroundTint="@color/colorAccent"
+        android:clickable="true"
+
+        android:foreground="?android:attr/selectableItemBackground"
+        android:visibility="visible"
+       app:cardCornerRadius="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivcityicon"
+            android:layout_width="75dp"
+            android:layout_height="55dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvcityPlace"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/tvcityMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/tvcitytemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
